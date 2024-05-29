@@ -29,7 +29,7 @@ public class UsuarioController {
 
     @GetMapping
     public String usuarioHome(Model model) {
-        return "usuario";
+        return "Usuario";
     }
 
     @GetMapping("/solicitarLibro")
